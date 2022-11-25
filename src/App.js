@@ -3,14 +3,17 @@ import React from "react";
 import Albums from "./pages/albums";
 import Songs from "./pages/songs";
 import Navbar from "./components/navbar"
+import Musicicon from "./assets/musicicon.png"
 
 function App() {
   return (
     
     <Router>
     <div>
-      <Link to="/songs"><img src="../assets/musicicon.png" alt="Songs" className="navimg"/></Link>{" "}
+     
+      <Link to="/songs"><img src=".assets/musicicon.png" alt="Songs" className="navimg"/></Link>{" "}
       <Link to={{ pathname: "/albums" }}><img src=".assets/musicicon.png" alt="Albums" className="navimg"/></Link>{" "}
+
       <Routes>
         <Route path="/songs" element={<Songs/>} />
         <Route path="/albums" element={<Albums/>} />
