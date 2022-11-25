@@ -2,6 +2,7 @@ import React from 'react'
 import Songcard from '../components/songcard';
 import Searchbar from '../components/searchbar'
 import Navbar from '../components/navbar'
+import Albumcard from '../components/albumcard';
 function Albums() {
   return (  
     <div className="Albums">
@@ -11,19 +12,8 @@ function Albums() {
  
  {/* The Cards */}
 <div class='flex-container'>
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
-<Songcard />
+<Albumcard />
+
 </div>
 
  {/* The Searchbar */}
