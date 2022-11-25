@@ -10,10 +10,10 @@ function App() {
     
     <Router>
     <div>
-     
-      <Link to="/songs"><img src=".assets/musicicon.png" alt="Songs" className="navimg"/></Link>{" "}
-      <Link to={{ pathname: "/albums" }}><img src=".assets/musicicon.png" alt="Albums" className="navimg"/></Link>{" "}
-
+     <center>
+      <Link to="/songs"><img src="https://i.imgur.com/HyqYBzm.png" alt="Songs" className="navimage"/></Link>{" "}
+      <Link to={{ pathname: "/albums" }}><img src="https://i.imgur.com/aRYANBM.png" alt="Albums" className="navimage"/></Link>{" "}
+      </center>
       <Routes>
         <Route path="/songs" element={<Songs/>} />
         <Route path="/albums" element={<Albums/>} />
