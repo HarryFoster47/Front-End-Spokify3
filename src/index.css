@@ -1,0 +1,94 @@
+/* variables */
+:root {
+  --pink-colour: #ff00d3;
+  --background-colour: rgb(15, 15, 15);
+  --main-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--background-colour);
+  margin: 0;
+  font-family: var(--main-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Var(--main-font),
+    monospace;
+}
+
+/* Centers Stuff */
+.App {
+  text-align: center;
+}
+.Songs {
+  text-align: center;
+}
+.Albums {
+  text-align: center;
+}
+
+/* The images used for navigation */
+.navimage {
+    height: 120px;
+    width: 120px;
+    padding: 10px 10px 60px 10px;
+  }
+  .navimage:hover {
+    opacity: 70%;
+    transition: 0.3s;
+  }
+
+  /* The searchbar */
+input {
+  border: 3px solid #ff00d3;
+  box-shadow: 0 0px 13px 0 #000000;
+  border-radius: 10px;
+  background-color: var(--background-colour);
+  padding: 6px;
+  color: black;
+  font-size: 25px;
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transition: 0.3s;
+  outline: none;
+  width:300px;
+  height: 45px;
+  margin-left: -150px;
+  }
+  input:hover {
+    box-shadow: 0 0px 50px 0 #000000;
+  }
+
+/* The Cards */
+.card {
+  box-shadow: 0 0px 13px 0 #ff00d3;
+  transition: 0.3s;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px;
+  border: 3px solid #ff00d3;
+}
+.card:hover {
+  box-shadow: 0 0px 25px 0 #ff00d3;
+}
+.container {
+  padding: 2px 16px;
+  color: white;
+}
+.cardimg {
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  }
+
+/* Flex for Cards */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
