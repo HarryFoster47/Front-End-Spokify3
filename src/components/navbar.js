@@ -4,7 +4,10 @@ import { Link, Router } from "react-router-dom";
 function Navbar () {
     return(
 
-<></>
+<>
+<img src='spokify/src/assets/albumicon.png' className='navimage'></img>
+<img src='spokify/src/assets/musicicon.png' className='navimage'></img>
+</>
 
     )
   }
