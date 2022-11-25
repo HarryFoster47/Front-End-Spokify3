@@ -23,6 +23,7 @@ function Albums() {
 <Songcard />
 <Songcard />
 <Songcard />
+<Songcard />
 </div>
 
  {/* The Searchbar */}
