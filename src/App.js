@@ -9,8 +9,8 @@ function App() {
     
     <Router>
     <div>
-      <Link to="/songs">Songs</Link>{" "}
-      <Link to={{ pathname: "/albums" }}>Albums</Link>{" "}
+      <Link to="/songs"><img src="../assets/musicicon.png" alt="Songs" className="navimg"/></Link>{" "}
+      <Link to={{ pathname: "/albums" }}><img src=".assets/musicicon.png" alt="Albums" className="navimg"/></Link>{" "}
       <Routes>
         <Route path="/songs" element={<Songs/>} />
         <Route path="/albums" element={<Albums/>} />
