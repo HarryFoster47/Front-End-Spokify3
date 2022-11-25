@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import React from "react";
 import Albums from "./pages/albums";
 import Songs from "./pages/songs";
-import Navbar from "./components/navbar"
+import Navbar from "./components/navbar" 
 import Musicicon from "./assets/musicicon.png"
 
 function App() {
